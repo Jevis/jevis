@@ -8,6 +8,14 @@ layout: default
     <p class="post-date">{{ page.date|date:"%Y-%m-%d" }}</p>
     {{ content }}
     {% include disqus.html %}
+	{% if site.leancloud.enable %}
+       <span id="{{ page.url }}"  data-flag-title="{{ page.title }}">
+        <span class="post-meta-divider">|</span>
+        <span class="post-meta-item-text"> Hits:  </span>
+        <span class="leancloud-visitors-count"></span>
+       </span>
+   {% endif %}
+
   </div>
 
   {% include about.html %}
