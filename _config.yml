@@ -2,6 +2,6 @@ theme: jekyll-theme-merlot
 permalink: /:title
 
 title: JevisHan Bolg
-url: https://jevis.github.io
+url: http://jevis.com
 feed: /atom.xml
 author_info: JevisHan
