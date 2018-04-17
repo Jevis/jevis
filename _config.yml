@@ -3,7 +3,3 @@ permalink: /:title
 title: JevisHan Bolg
 feed: /atom.xml
 author_info: JevisHan
-leancloud:
-  enable: true
-  app_id: RUIY6NHesNPkq8OgczvwBmxh-gzGzoHsz
-  app_key: 7CQEnRyJv9iKWiXOf0KdtiMO
