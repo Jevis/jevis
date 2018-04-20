@@ -13,8 +13,8 @@ author: jevis
 ## Thread：
 ### 内容简介：
 &nbsp;&nbsp;提到Thread就不得不先说说他的各种状态和他们之间的转化关系
-![]({{site.baseurl}}/images/bolg_used/thread_runable/thread-state.png)
-![]({{site.baseurl}}/images/bolg_used/thread_runable/thread-exchange-state.png)
+![](/images/bolg_used/thread_runable/thread-state.png)
+![](/images/bolg_used/thread_runable/thread-exchange-state.png)
 
  - NEW
    &nbsp;&nbsp;创建了一个Thread对象，但是还没有调用start来启动线程时。
