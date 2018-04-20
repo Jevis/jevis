@@ -1,0 +1,18 @@
+<header class="site-header">
+<div class="wrapper">
+
+
+<div class="profile">
+<a href="{{site.baseurl}}/">
+<img class="author-image" alt="site-title" src="{{site.baseurl}}/images/{{site.author.image}}">
+</a>
+<h1 class="author-about">{{site.author.name}}</h1>
+<a href="https://github.com/Jevis" target="_blank"><img src="https://github.com/favicon.ico" alt="" width="25"/></a>
+</div>
+<div class="menu-category">
+<div class="menu-item"><a class="{% if page.url == '/android/' %}active{% endif %} menu-link" href="{{site.baseurl}}/android/">Android</a></div>
+<div class="menu-item"><a class="{% if page.url == '/code/' %}active{% endif %}  menu-link" href="{{site.baseurl}}/code/">源码解析</a></div>
+</div>
+</div>
+</header>
+

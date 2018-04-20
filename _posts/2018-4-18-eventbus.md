@@ -1,17 +1,12 @@
 ﻿---
-layout:     post
-title:      EventBus 3.0源码解析
+layout: post
+title: EventBus 3.0源码解析
 comments: true
-category: bolg
-description: EventBus已经成为了我们在项目中使用率非常高的第三方开源库，每次都是简单的使用却不知道他内部到底是什么样子的，那么久跟着我的文章一步一步的剖析EventBus吧！
+description: EventBus已经成为了我们在项目中使用率非常高的第三方开源库，每次都是简单的使用却不知道他内部到底是什么样子的，那么久跟着我的文章一步一步的剖析EventBus吧！ 
+categories: code
+author: jevis
 ---
 
-
-# EventBus 3.0源码解析
-
-标签（空格分隔）： android 源码分析
-
----
 ### 综述：
  &nbsp;&nbsp;EvenBus已迥然成为了我们项目中常用的第三方开源框架，其使用简单功能强大，而且他的内部原理也十分简单，那么就让我们一起来看看他的内部实现吧！
 ### EventBus流程：

@@ -1,16 +1,39 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    <meta name="author" content="JevisHan" />
-    <meta name="renderer" content="webkit">
-    <meta name="description" content="JevisHan's Blog" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.feed }}" />
-    <style>{% include style.css %}</style>
-  </head>
- 
-  {{ content }}
+{% include head.html %}
+
+<body>
+   <div class="container">
+       
+    {% include sidebar.html %}
+
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->   
+        <div id="main">
+
+             {% include header.html %}
+                    <div class="page-content">
+                        <div class="wrapper">
+                            {{ content }}
+                        </div>
+                   {% include disqus.html %}
+                    </div>
+                {% if site.analytics %}
+                    {% include analytics.html %}
+                {% endif %}  
+        </div>
+        
+        
+        
+        
+        
+
+        
+        
+</div>            
+        
+</body>
 </html>
