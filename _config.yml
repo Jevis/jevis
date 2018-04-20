@@ -10,7 +10,7 @@ title: JevisHan Blog
 baseurl: "/jevis" # the subpath of your site, e.g. /blog
 url: "http://jevis.com/"
 permalink: :title/
-full-url: "http://jevis.com/jevis" # the base hostname & protocol for your site
+full-url: "http://jevis.com" # the base hostname & protocol for your site
 
 
 # CSS
